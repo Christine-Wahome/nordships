@@ -39,10 +39,10 @@ const App = () => {
           <img src={Logo} alt="logo" className="hidden lg:inline-flex" />
 
           <p className="text-[#ffffff] lg:text-[#000000] mt-10">
-            Exercitation laboris enim labore nulla eiusmod do. Non in nostrud
-            non laboris anim anim elit duis ipsum sit. Velit amet aute esse
-            pariatur ipsum ipsum deserunt mollit irure quis fugiat. Anim aliqua
-            laborum sint aute irure consequat irure deserunt.
+           NJORDSHIPS MANAGEMENT INDIA PVT LTD with RPSL No: CHN/059, does not have any branch offices or agents in India or abroad.
+If you get approached by any consultant agent or anyone saying he is working for NjordShips Management India Private limited offers JOB OPPORTUNITIES or Any other deals could be a fraud. NjordShips Management India Private Limited will not be responsible for any such kind of frauds.
+<br/>
+If at all you required to verify any details please email to ar@njordships.com .
           </p>
           <h2 className="text-[#ffffff] text-4xl font-bold lg:text-darkBlue text-center mt-4 lg:mt-0 p-4">
             COMING SOON
