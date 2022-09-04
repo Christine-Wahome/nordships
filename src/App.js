@@ -27,28 +27,28 @@ const App = () => {
     },
   ];
   return (
-    <div className="h-screen w-full flex items-center">
-      <div className="w-[40%] p-24">
+    <div className="h-screen w-full flex items-center flex-col lg:flex-row">
+      <div className="hidden lg:inline-flex w-[40%] p-24">
         <img src={PodCast} alt="announcement" />
       </div>
-      <div className="w-[60%] bg-gradient-to-br from-lightBlue to-darkBlue h-screen flex flex-col items-center justify-center">
-        {/* <div>
-          <img src={Logo} />
-        </div> */}
-        <div className="bg-[#ffffff] p-6 max-w-xl mx-auto rounded-xl shadow-lg ">
-          <img src={Logo} alt="logo" />
+      <div className="bg-[#ffffff] p-4 lg:hidden">
+        <img src={Logo} />
+      </div>
+      <div className="lg:w-[60%] bg-gradient-to-br from-lightBlue to-darkBlue h-screen flex flex-col items-center lg:justify-center">
+        <div className="lg:bg-[#ffffff] p-6 lg:max-w-xl mx-auto lg:rounded-xl lg:shadow-lg ">
+          <img src={Logo} alt="logo" className="hidden lg:inline-flex" />
 
-          <p className="mt-10">
+          <p className="text-[#ffffff] lg:text-[#000000] mt-10">
             Exercitation laboris enim labore nulla eiusmod do. Non in nostrud
             non laboris anim anim elit duis ipsum sit. Velit amet aute esse
             pariatur ipsum ipsum deserunt mollit irure quis fugiat. Anim aliqua
             laborum sint aute irure consequat irure deserunt.
           </p>
-          <h2 className="text-4xl font-bold text-darkBlue text-center p-4">
+          <h2 className="text-[#ffffff] text-4xl font-bold lg:text-darkBlue text-center mt-4 lg:mt-0 p-4">
             COMING SOON
           </h2>
         </div>
-        <div>
+        <div className="text-center">
           {media.map(({ icon, link }) => (
             <a
               href={link}
